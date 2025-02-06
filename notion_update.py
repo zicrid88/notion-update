@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import os
 
 # 🔹 Notion API 설정 (API 키 & 데이터베이스 ID 입력)
 NOTION_API_KEY = os.getenv("NOTION_API_KEY")
