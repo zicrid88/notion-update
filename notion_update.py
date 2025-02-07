@@ -41,7 +41,7 @@ def extract_date_value(properties, property_name):
 # 🔹 진행률 계산 함수 + 이모지 변환
 def calculate_progress(start_date, end_date):
     if not start_date or not end_date:
-        return "🚨 날짜 없음"
+        return "   "
 
     today_date_str = datetime.today().strftime("%Y-%m-%d")
     
