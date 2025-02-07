@@ -61,7 +61,7 @@ def calculate_progress(start_date, end_date):
         return "🚨 오류"  # 시작일과 완료일이 잘못된 경우
 
     # 진행률 계산
-    progress = round((passed_days / total_days) * 100, 1)
+    progress = round((passed_days / total_days) * 100, 0)
 
     # 10 이하인 경우 -> 10, 100 초과인 경우 -> 100
     if progress < 10:
